@@ -1,0 +1,97 @@
+ANIMALYTICS PROPRIETARY SOFTWARE LICENSE
+Copyright (c) 2026 Animalytics and its copyright owner(s). All rights reserved.
+Effective for Animalytics 1.1.0 and later releases distributed with these terms.
+
+1. OWNERSHIP; NO SOURCE-CODE LICENSE
+The copyright owner(s) of Animalytics ("Licensor") retain all rights, title,
+and interest in the original Animalytics source code, object code, interface,
+assets, documentation, and related intellectual property ("Software"). The
+Software is licensed, not sold. No source-code license is granted. Access to,
+receipt of, or possession of the Software does not grant any right other than
+the limited end-user permission expressly stated below. All rights not
+expressly granted are reserved.
+
+2. LIMITED AUTHORIZED END-USER PERMISSION
+Only an end user expressly authorized by Licensor, including through a direct
+invitation or purchase from Licensor, may install and run the unmodified,
+compiled Animalytics application on computers that end user owns or controls,
+solely to manage and analyze that end user's own trail-camera photographs for
+personal or internal business purposes. This permission is limited,
+nonexclusive, nontransferable, and nonsublicensable. Copies strictly necessary
+for installation, execution, authorized updates, and one archival backup are
+permitted. No right to develop software using Animalytics code is granted.
+A public download link alone does not authorize any other use.
+
+3. PROHIBITED USES
+Except with Licensor's prior express written permission, you must not:
+(a) copy, reproduce, publish, disclose, distribute, transfer, sublicense,
+    sell, rent, lease, lend, or make available any part of the Software,
+    except for the narrow operational copies permitted in section 2;
+(b) use, extract, incorporate, adapt, translate, modify, or create derivative
+    works from any Animalytics code or assets, including for personal,
+    educational, research, noncommercial, or commercial projects;
+(c) use the Software or any portion of it to build, train, improve, or provide
+    another product, service, library, AI system, or competing implementation;
+(d) reverse engineer, decompile, disassemble, or attempt to derive source code,
+    algorithms, or nonpublic implementation details;
+(e) offer the Software as a hosted service, service bureau, shared service,
+    white-label product, or application for third parties;
+(f) bypass authorization controls, remove or obscure notices, or misrepresent
+    authorship, ownership, affiliation, or endorsement; or
+(g) use Animalytics names, logos, or trademarks other than as displayed during
+    authorized use. No trademark or patent license is implied.
+These restrictions apply to every portion of Animalytics-owned code and
+assets, even if a portion is visible or technically extractable.
+
+4. THIRD-PARTY MATERIALS AND MANDATORY RIGHTS
+Third-party software, model weights, fonts, and other third-party materials
+remain subject to their respective licenses, identified in
+THIRD_PARTY_NOTICES.md and accompanying license files. Those materials are
+excluded from the restrictions above to the extent those restrictions conflict
+with their applicable licenses. Nothing in this agreement restricts rights
+that applicable law does not permit Licensor to restrict, including any
+required right to reverse engineer for debugging modifications to LGPL
+components or to replace or relink such components. This agreement does not
+purport to withdraw rights granted under a different license for a previously
+received copy. It does not confer any new rights to Animalytics-owned code.
+
+5. CUSTOMER DATA
+Your photographs, camera names, annotations, and generated reports remain
+yours. This license does not restrict your use, copying, or sharing of your
+data or ordinary analytical outputs. No ownership of your data transfers to
+Licensor. Third-party material included in an output retains its own rights.
+
+6. UPDATES
+The application may check for, download, verify, and install authorized updates.
+Updates are subject to their accompanying license terms. No entitlement to
+future updates, support, availability, or compatibility is promised. Updates
+do not authorize use beyond the scope of section 2.
+
+7. TERMINATION
+Permission terminates automatically upon breach of these terms, to the extent
+permitted by applicable law. Upon termination you must stop using and remove
+the Software and its copies; you may retain your own photographs and data.
+Ownership, restrictions, third-party rights, disclaimers, liability limits,
+and accrued rights survive termination.
+
+8. NO WARRANTY
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE SOFTWARE IS PROVIDED "AS IS" AND
+"AS AVAILABLE", WITHOUT WARRANTIES OF ANY KIND, EXPRESS, IMPLIED, OR STATUTORY,
+INCLUDING MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE,
+NONINFRINGEMENT, ACCURACY, OR UNINTERRUPTED OPERATION. ANIMAL IDENTIFICATIONS,
+COUNTS, AND ACTIVITY ESTIMATES MAY BE INCORRECT. YOU ARE RESPONSIBLE FOR BACKUPS
+AND FOR REVIEWING RESULTS BEFORE RELYING ON THEM.
+
+9. LIMITATION OF LIABILITY
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, LICENSOR WILL NOT BE LIABLE FOR ANY
+INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, PUNITIVE, OR CONSEQUENTIAL DAMAGES,
+OR LOSS OF PROFITS, REVENUE, DATA, OR BUSINESS, ARISING FROM THE SOFTWARE.
+LICENSOR'S TOTAL LIABILITY WILL NOT EXCEED THE AMOUNT YOU PAID LICENSOR FOR
+THE SOFTWARE DURING THE TWELVE MONTHS BEFORE THE CLAIM. THESE LIMITATIONS DO
+NOT EXCLUDE LIABILITY THAT CANNOT LAWFULLY BE EXCLUDED OR LIMITED.
+
+10. GENERAL
+No failure to enforce a provision is a waiver. An unenforceable provision is
+limited to the extent necessary, and the remaining provisions remain effective.
+A separate written agreement signed by Licensor may grant additional rights;
+no other implied permission or informal assumption expands this license.

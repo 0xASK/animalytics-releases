@@ -1,0 +1,26 @@
+# Animalytics 1.1.0 — third-party notices
+
+Original Animalytics application code is proprietary. See LICENSE for the narrow authorized end-user permission and restrictions on copying, reuse, modification, redistribution, and reverse engineering. The source repository is private; no application source-code license is granted. These restrictions do not replace the separate licenses of the components below.
+
+## Included and downloaded models
+
+- **MegaDetector MDV6-apa-rtdetr-e**, Microsoft AI for Good Lab: Apache-2.0, expressly the Apache RT-DETR variant. The unmodified ONNX export is from Microsoft SPARROW Engine's Zenodo record 23992557, package `camera_trap__detector__MDV6-apa-rtdetr-e.zip`. Original weights: https://doi.org/10.5281/zenodo.15398270. Variant-specific weight license: https://microsoft.github.io/MegaDetector/model_zoo/. Full upstream license, attribution, model card, source, and conversion records are included in `build/licenses/MegaDetector-Apache-2.0/` and the installed licenses folder. The source record's general CC-BY-4.0 metadata differs from the explicit per-variant Apache-2.0 weight grant; the preserved upstream record documents this distinction.
+- **SpeciesNet v4.0.3a crop classifier**, Google LLC: Apache-2.0. Original model `always_crop_99710272_22x8_v12_epoch_00148.pt`, 2,498 labels, https://www.kaggle.com/models/google/speciesnet/pyTorch/v4.0.3a/1. The downloaded model's own README explicitly identifies `license: apache-2.0`; that model card and the Apache text are included. Implementation reference: https://github.com/google/cameratrapai. The model was converted to ONNX without retraining; preprocessing is independently implemented. The manifest records numerical export parity and checksums.
+
+Models are downloaded from the official Animalytics releases repository once, verified against pinned SHA256 values, and retained locally across app updates. They retain their original licenses and are not made proprietary by the application license. No cloud inference or upload of customer photos occurs. The publishers do not endorse Animalytics. The previous AGPL YOLOv9 detector and noncommercial DeepFaune weights are not shipped or used by this release.
+
+## Runtime software
+
+- Electron / Chromium / Node.js: MIT and accompanying third-party notices, including the packaged Electron LICENSE and LICENSES.chromium.html.
+- electron-updater: MIT; its dependency license notices remain in the packaged modules.
+- ONNX Runtime / onnxruntime-node: Microsoft, MIT; accompanying native runtime licenses apply.
+- sharp: Apache-2.0. libvips is LGPL-2.1-or-later; it remains a separately loaded shared library. Its notices and those of bundled dependencies are preserved in the binary packages. Upstream source and build recipes: https://github.com/libvips/libvips and https://github.com/lovell/sharp-libvips. The application license preserves the third-party rights to modify/replace/relink these components and reverse engineer as needed to debug those modifications.
+- exifr: MIT.
+- SQLite: public domain.
+- Microsoft Visual C++ runtime DLLs: distributed unmodified under the Microsoft Visual Studio redistribution terms; https://learn.microsoft.com/cpp/windows/redistributing-visual-cpp-files.
+
+Exact versions are pinned in the private package-lock.json. License files are retained in the packaged modules and licenses folder; no Animalytics ownership is claimed over third-party components.
+
+## Download website
+
+Three.js 0.187.0 is MIT-licensed; Manrope is SIL Open Font License 1.1. Their notices remain with the self-hosted assets. The ranch scene is a generated illustration, not a customer photograph. These website assets are not part of the desktop runtime.
